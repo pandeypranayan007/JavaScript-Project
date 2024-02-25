@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Practice</title>
+    <style>
+        body{
+            height: 100vh;
+            background: rgb(253, 253, 252);
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+    .item1{
+        background-color: rgb(182, 206, 228)
+    }
+    .item2{
+        background-color: lemonchiffon;
+    }
+    .item3{
+        background-color: rgb(244, 214, 175);
+    }
+    .item4{
+        background-color: darkgreen;
+    }
+    .item5{
+        background-color: lightcoral;
+    }
+    .item6{
+        background-color: rgb(240, 149, 155);
+    }
+    .item7{
+        background-color: rgb(132, 132, 94);
+    }
+    .item8{
+        background-color: lightgrey;
+    }
+    
+    .item9{
+        background-color: lightgreen;
+    }
+     
+     .container{
+        width:1200px;
+        background: #15130f8a;
+        box-shadow: rgba(149, 155, 165, 0.2)0px 8px 24px;
+        display: grid;
+        grid-template-columns: repeat(3,400px);
+        /* grid-template-columns: 1fr 1fr 1fr; */
+        grid-template-rows: repeat(3,200px);
+        /* grid-template-rows: 1fr 1fr 1fr; */
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+        grid-gap: 30px;
+
+    } 
+
+    .container{
+        width:1400px;
+        background: #15130f8a;
+        box-shadow: rgba(149, 155, 165, 0.2)0px 8px 24px;
+        display: grid;
+        grid-template-columns: repeat(3,400px);
+        /* grid-template-columns: 1fr 1fr 1fr; */
+        grid-template-rows: repeat(3,200px);
+        /* grid-template-rows: 1fr 1fr 1fr; */ 
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+        grid-gap: 30px;
+
+    }
+    .item1{
+        grid-column-start: 3;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1"> Item-1</div>
+        <div class="item2"> Item-2</div>
+        <div class="item3"> Item-3</div>
+        <div class="item4"> Item-4</div>
+        <div class="item5"> Item-5</div>
+        <div class="item6"> Item-6</div>
+        <div class="item7"> Item-7</div>
+        <div class="item8"> Item-8</div>
+        <div class="item9"> Item-9</div>
+        
+        
+    </div>
+</body>
+</html>
